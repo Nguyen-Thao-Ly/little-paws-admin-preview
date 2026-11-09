@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nhận nuôi — Little Paws</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body data-page="adopt">
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-paw">🐾</span><span data-site="name">Little Paws</span></a><button class="menu-toggle">☰</button><nav class="main-nav"><a href="index.html">Trang chủ</a><a class="active" href="adopt.html">Nhận nuôi</a><a href="donate.html">Quyên góp</a><a href="contact.html">Liên hệ</a></nav></header>
+<main>
+<section class="page-hero hero-adopt"><div class="hero-overlay"></div><div class="page-hero-content reveal"><h1>Nhận nuôi</h1><p>Một mái nhà an toàn có thể mở ra một chương mới cho những chiếc chân nhỏ.</p></div></section>
+<section class="section">
+<div class="section-heading reveal"><span class="eyebrow">Tìm người bạn phù hợp</span><h2>Chờ tìm chủ</h2><p>Hãy tìm hiểu kỹ trước khi quyết định nhận nuôi.</p></div>
+<div class="filters reveal"><select id="genderFilter"><option value="">Giới tính</option><option>Cái</option><option>Đực</option></select><select id="ageFilter"><option value="">Độ tuổi</option><option>Trẻ</option><option>Trưởng thành</option></select><input id="searchPet" placeholder="Tên hoặc mã hồ sơ..."></div>
+<div class="pet-grid" id="all-pets"></div>
+</section>
+<section class="two-col">
+<div class="info-card reveal"><span class="script-label">Quy trình nhận nuôi</span><ol><li><b>Chọn người bạn nhỏ</b><br>Tìm hiểu hồ sơ, tính cách và nhu cầu của bé.</li><li><b>Gửi nguyện vọng</b><br>Chia sẻ thông tin liên hệ và môi trường sống dự kiến.</li><li><b>Trao đổi</b><br>Cùng tìm hiểu điều kiện chăm sóc và những điều cần chuẩn bị.</li><li><b>Đón bé về nhà</b><br>Cam kết chăm sóc và yêu thương lâu dài.</li></ol></div>
+<div class="info-card green reveal"><img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=80" alt="Mèo"><h3>Cam kết nhận nuôi có trách nhiệm</h3><p>Khi nhận nuôi, bạn không chỉ đón thêm một thành viên mới mà còn nhận trách nhiệm chăm sóc bé lâu dài.</p></div>
+</section>
+<section class="form-section"><h2>Đăng ký tìm hiểu nhận nuôi</h2><form id="adoptionForm" novalidate><input name="name" required placeholder="Họ tên của bạn"><input name="email" type="email" placeholder="Email liên hệ (không bắt buộc nếu có số điện thoại)"><input name="phone" type="tel" placeholder="Số điện thoại (không bắt buộc nếu có email)"><select name="petId"><option value="">Bé mèo bạn quan tâm</option></select><textarea name="message" placeholder="Bạn đã chuẩn bị môi trường sống cho bé như thế nào?"></textarea><button class="pill-btn" type="submit">Gửi nguyện vọng</button></form><p id="formNotice" role="status" aria-live="polite"></p></section>
+</main><footer id="footer"></footer><script src="assets/app.js"></script><script src="assets/cat-details.js" defer></script></body></html>
