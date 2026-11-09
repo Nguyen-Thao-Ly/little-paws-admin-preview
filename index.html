@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Little Paws — Mái nhà nhỏ</title>
+  <meta name="description" content="Một chiếc chân nhỏ, một cơ hội yêu thương.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="home">
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html"><span class="brand-paw">🐾</span><span data-site="name">Little Paws</span></a>
+    <button class="menu-toggle" aria-label="Mở menu">☰</button>
+    <nav class="main-nav">
+      <a class="active" href="index.html">Trang chủ</a>
+      <a href="adopt.html">Nhận nuôi</a>
+      <a href="donate.html">Quyên góp</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <h1>Mái nhà nhỏ</h1>
+        <p>Một chiếc chân nhỏ, một cơ hội yêu thương</p>
+        <a class="pill-btn" href="adopt.html">Tìm một người bạn</a>
+      </div>
+    </section>
+
+    <section class="intro split-section">
+      <div class="intro-panel panel-blue reveal">
+        <span class="script-label">Giới thiệu</span>
+        <ul>
+          <li>Mái Nhà Nhỏ là một dự án với mong muốn giúp đỡ những chú mèo hoang, mèo bị bỏ rơi và không có nơi nương tựa.</li>
+          <li>Chúng tôi mong muốn mang đến cho các bé một môi trường sống an toàn, được chăm sóc và yêu thương.</li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=900&q=80" alt="Mèo">
+      </div>
+      <div class="intro-panel panel-cream reveal">
+        <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=900&q=80" alt="Mèo">
+        <ul>
+          <li>Thông qua website, mọi người có thể tìm hiểu về các bé mèo, chung tay hỗ trợ và nhận nuôi.</li>
+          <li>Mỗi sự giúp đỡ, dù nhỏ bé, đều có thể tạo nên sự thay đổi lớn.</li>
+          <li>Hãy cùng Mái Nhà Nhỏ trao cho những chiếc chân nhỏ một mái ấm yêu thương!</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="stats-band">
+      <div class="stat reveal"><b data-count="3507">0</b><span>Ca cứu hộ</span></div>
+      <div class="stat reveal"><b data-count="1434">0</b><span>Đã có chủ</span></div>
+      <div class="stat reveal"><b data-count="521">0</b><span>Chờ tìm chủ</span></div>
+      <div class="stat reveal"><b data-count="230">0</b><span>Chưa sẵn sàng</span></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Một mái ấm đang chờ</span>
+        <h2>Bé ngoan trong tuần</h2>
+        <p>Biết đâu người bạn tiếp theo của bạn đang ở đây.</p>
+      </div>
+      <div class="pet-grid" id="home-pets"></div>
+      <div class="center"><a class="pill-btn" href="adopt.html">Xem tất cả các bé</a></div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-inner reveal">
+        <h2>Bạn đã sẵn sàng giúp đỡ?</h2>
+        <p>Một bữa ăn, một mái nhà, một lần chia sẻ — đều có ý nghĩa.</p>
+        <a class="pill-btn pink" href="donate.html">Ủng hộ ngay</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating-actions">
+    <button onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Lên đầu">↑</button>
+    <a href="contact.html" title="Liên hệ">💬</a>
+  </div>
+  <footer id="footer"></footer>
+  <script src="assets/app.js"></script><script src="assets/cat-details.js" defer></script>
+</body>
+</html>
